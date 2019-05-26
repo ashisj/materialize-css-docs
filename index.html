@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+        .box{
+            height:150px;
+        }
+        .abc .row > div{
+            padding: 10px;
+            background: #ddd;
+            border: 1px solid #fff;
+            line-height : 60px;
+        }
+        .col > div{
+            background: lightblue;
+            height: 120px;
+        }
+    </style>
+    <title>Materialize css</title>
+</head>
+<body class="container">
+    <!-- Background color -->
+    <h1 class = "red">red background</h1>
+    <h1 class = "red darken-3">red dark background</h1>
+    <h1 class = "red lighten-3">red lighter background</h1>
+    
+    <!-- coloring text -->
+    <h3 class = "purple-text">purple text</h3>
+    <h3 class = "purple-text text-lighten-2">purple text</h3>
+    <h3 class = "purple-text text-darken-2">purple text</h3>
+
+    <!-- Text formatting -->
+    <h5 class="center-align">ceter alignment</h5>
+    <h5 class="left-align">left alignment</h5>
+    <h5 class="right-align">right alignment</h5>
+
+    <!--  vertical alignment -->
+    <div class="grey box valign-wrapper">
+        <h5>vertical alignment</h5>
+    </div>
+    <!-- paagraph truncate -->
+    <p class="truncate">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus sunt aut beatae molestias eveniet eaque adipisci? Maiores minima odio at enim amet reiciendis illo praesentium velit natus. Sint, cum quas?</p>
+
+    <!--  buttons -->
+    <h4>Buttons</h4>
+    <a href="" class="btn waves-effect waves-dark">Normal button</a>
+    <a href="#" class="btn-small">Small button</a>
+    <a href="#" class="btn-large waves-effect waves-light">Large button</a>
+    <a href="#" class="btn indigo">Indigo button</a>
+    <a href="#" class="btn disabled">Disabled button</a>
+    <h4>Floating button</h4>
+    <a href="#" class="btn-floating pink pulse"></a>
+    <h4>Other elements</h4>
+    <div class="btn">I am a div tag</div>
+
+    <!-- Google Icons -->
+    <h4>Icons</h4>
+    <i class="material-icons red-text">error</i>
+    <i class="material-icons">error</i>
+    <i class="material-icons yellow-text text-darken-2">warning</i>
+
+    <!-- Icons on buttons -->
+    <h4>Icons on Buttons</h4>
+    <a href="#" class="btn indigo">
+        <span>Send</span>
+        <i class="material-icons right">send</i>
+    </a>
+    <a href="#" class="btn pink waves-effect waves-light">
+        <span>Email</span>
+        <i class="material-icons left">email</i>
+    </a>
+
+    <!-- Icons on Floating Buttons -->
+    <h4>Icons on Floating Buttons</h4>
+    <a href="#" class="btn-floating blue pulse">
+        <i class="material-icons">add</i>
+    </a>
+    <a href="#" class="btn-floating red pulse">
+        <i class="material-icons">remove</i>
+    </a>
+    <a href="#" class="btn-floating orange pulse">
+        <i class="material-icons">edit</i>
+    </a>
+
+    <!-- grid system -->
+    <div class="abc">
+    <div class="row">
+        <div class="col s3 indigo">content</div>
+        <div class="col s3 indigo">content</div>
+        <div class="col s3 indigo">content</div>
+        <div class="col s3 indigo">content</div>
+    </div>
+    <div class="row">
+        <div class="col s6 m3 indigo darken-4">content</div>
+        <div class="col s6 m3 indigo darken-4">content</div>
+        <div class="col s6 m3 indigo darken-4">content</div>
+        <div class="col s6 m3 indigo darken-4">content</div>
+    </div>
+    <div class="row">
+        <div class="col s12 m6 l4 indigo lighten-2">content</div>
+        <div class="col s12 m6 l4 indigo lighten-2">content</div>
+        <div class="col s12 m6 l4 indigo lighten-2">content</div>
+        <div class="col s12 m6 l4 indigo lighten-2">content</div>
+        <div class="col s12 m6 l4 indigo lighten-2">content</div>
+        <div class="col s12 m6 l4 indigo lighten-2">content</div>
+    </div>
+    <div class="row">
+        <div class="col s12 m6 l4 xl2 indigo">content</div>
+        <div class="col s12 m6 l4 xl2 indigo">content</div>
+        <div class="col s12 m6 l4 xl2 indigo">content</div>
+        <div class="col s12 m6 l4 xl2 indigo">content</div>
+        <div class="col s12 m6 l4 xl2 indigo">content</div>
+        <div class="col s12 m6 l4 xl2 indigo">content</div>
+    </div>
+    </div>
+    <!-- shadow & depth -->
+    <div class="row">
+        <div class="col s2">
+            <div></div>
+        </div>
+        <div class="col s2">
+            <div class="z-depth-1"></div>
+        </div>
+        <div class="col s2">
+            <div class="z-depth-2"></div>
+        </div>   
+        <div class="col s2">
+            <div class="z-depth-3"></div>
+        </div>
+        <div class="col s2">
+            <div class="z-depth-4"></div>
+        </div>
+        <div class="col s2">
+            <div class="z-depth-5"></div>
+        </div>   
+    </div>
+    <div style="">Lorem ipsum dolor sit amet consectetur adipisicing elit. A optio non consectetur. Doloribus odio libero sit, incidunt ad porro ab laboriosam nam, enim aut beatae minima quis magnam dolor illo!</div>
+</body>
+</html>
